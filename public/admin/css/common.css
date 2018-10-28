@@ -1,6 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .body_bg {
   background-color: #222d32;
 }
 .mt_150 {
   margin-top: 150px;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-left: 180px;
+}
+body.active{
+  padding-left: 0;
+}
+.lt_aside.active {
+ left: -180px;
+}
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  background-color: #222d32;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.lt_main {
+  height: 100%;
+  background-color:pink; 
+}
+.brand a{
+  display: block;
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  font-size: 24px;
+  background-color: #367fa9;
+  line-height: 50px;
+}
+.user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.user p {
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+}
+.nav li a{
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  border-left: 3px solid transparent;
+}
+.nav a.active {
+  background-color: #1d1f21;
+  border-left: 3px solid #069;
+}
+/*主体区样式*/
+
+
+.topbar {
+  height: 50px;
+  background-color: #3c8dbc;
+  padding: 0 20px;
+}
+
+.topbar a {
+  font-size: 16px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.chart_left,
+.chart_right {
+  height: 400px;
+  width: 45%;
 }
